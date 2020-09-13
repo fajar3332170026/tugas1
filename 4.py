@@ -138,9 +138,9 @@ network = OurNeuralNetwork()
 network.train(data, all_y_trues)
 
 # Make some predictions
-emily = np.array([-7, -3]) # 128 pounds, 63 inches
+felicia = np.array([-7, -3]) # 128 pounds, 63 inches
 frank = np.array([20, 2])  # 155 pounds, 68 inches
 joni = np.array([0,0]) # 135 pounds, 66 inches
-print("Emily: %.3f" % network.feedforward(emily)) # 0.951 - F
+print("Felicia: %.3f" % network.feedforward(felicia)) # 0.951 - F
 print("Frank: %.3f" % network.feedforward(frank)) # 0.039 - M
 print("Joni: %.3f" % network.feedforward(joni))
